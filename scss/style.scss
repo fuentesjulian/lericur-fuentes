@@ -314,6 +314,7 @@ input[type="text"],
   article.receta {
     margin-left: 0.5em;
     margin-right: 0.5em;
+    padding-top: 0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
     grid-template-columns: 100%;
@@ -324,6 +325,7 @@ input[type="text"],
       margin-right: auto;
       img {
         width: 100%;
+        margin-bottom: 0.5em;
       }
     }
   }
@@ -412,15 +414,6 @@ input[type="text"],
     grid-template-areas: "titulo titulo titulo" "foto resumen ingredientes" "pasos pasos pasos" "video video video";
   }
 
-  section.contacto {
-    margin-left: 2em;
-    margin-right: 2em;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-template-areas: "contacto_titulo contacto_titulo" "contacto_formulario contacto_mapa";
-    align-items: center;
-  }
-
   .receta .titulo,
   .receta .foto,
   .receta .resumen,
@@ -437,7 +430,14 @@ input[type="text"],
     display: inline-block;
     width: 20%;
   }
-
+  section.contacto {
+    margin-left: 2em;
+    margin-right: 2em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "contacto_titulo contacto_titulo" "contacto_formulario contacto_mapa";
+    align-items: center;
+  }
   section.promos,
   section.productos,
   section.recetas,
