@@ -228,6 +228,8 @@ input[type="text"],
   background-color: #f8f8f8;
   border: none;
   border-radius: 0.25rem;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 .input-text {
@@ -254,6 +256,7 @@ input[type="text"],
     margin-bottom: 0.5em;
   }
   textarea {
+    padding: 0.5em;
     resize: none;
     width: 95%;
     background-color: #f8f8f8;
