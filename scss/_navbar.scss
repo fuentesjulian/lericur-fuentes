@@ -1,0 +1,42 @@
+/* formato de la navbar */
+nav {
+  background-image: linear-gradient(to right, $nav_fondo_colorizq, $nav_fondo_colorder);
+}
+
+.navbar {
+  font-weight: bold;
+}
+
+.navbar-light {
+  .navbar-brand {
+    color: $nav_fuente_color;
+    background-color: #00000031;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 50%;
+    &:hover,
+    &:focus {
+      color: $nav_fuente_colorhover;
+      background-color: #00000050;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+      border-radius: 50%;
+    }
+  }
+  .navbar-nav .nav-link {
+    color: $nav_fuente_color;
+    &:hover,
+    &:focus {
+      color: $nav_fuente_colorhover;
+    }
+  }
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+  color: $nav_fuente_coloractive;
+}
+
+.navbar .btn-outline-light {
+  border-color: #e9e9e9be;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Setteo titulo de página -->
+    <title>Recetas - Le Ricur</title>
+    <!-- Setteo la descripción y las palabras clave de la página para el SEO -->
+    <meta name="description" content="Conocé nuestras recetas.">
+    <meta name="keywords" content="receta, recetas, comida, comidas, preparacion">
+    <!-- Setteo ícono de página -->
+    <link rel="icon" type="image/x-icon" href="../assets/ico/favicon.png" />
+    <!-- Importo fuente Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <!-- Importo CSS de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Importo mi CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- Importo WOW -->
+    <link rel="stylesheet" href="../css/animate.min.css" />
+    <script src="../js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </head>
+  <body class="animate__animated animate__fadeIn">
+    <!-- Header con Logo de Le Ricur -->
+    <header>
+      <a href="../index.html"><img src="../assets/img/LeRicurLogo.png" alt="Logo" /></a>
+    </header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">LR</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Recetas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+            <button class="btn btn-outline-light" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Cuerpo de la página -->
+    <section class="recetas">
+      <div class="container">
+        <div class="row"><h1 class="text-center">Recetas</h1></div>
+      </div>
+      <article class="receta">
+        <div class="titulo">
+          <h4>
+            <strong>Pan casero</strong>
+          </h4>
+        </div>
+        <div class="foto"><img src="../assets/img/pan.PNG" alt="pan" /></div>
+        <div class="resumen">
+          <h5>Resumen</h5>
+          <p>Tiempo de preparación: 5 horas</p>
+          <p>Tiempo de cocción: 30 minutos</p>
+          <p>Porciones: 4</p>
+          <p>Comer con mermelada de durazno y queso</p>
+        </div>
+        <div class="ingredientes">
+          <h5>Ingredientes</h5>
+          <ul>
+            <li>Harina 000 560 gramos</li>
+            <li>Harina integral 190 gramos</li>
+            <li>Agua tibia 600cc</li>
+            <li>Sal Kosher 17 gramos</li>
+            <li>Levadura 3 gramos</li>
+          </ul>
+        </div>
+        <div class="pasos">
+          <h5>Pasos</h5>
+          <ol>
+            <li>En un bowl muy grande mezcla con tus manos la harina y el agua hasta que se hayan unido. Dejar reposar por 10 minutos.</li>
+            <li>Agregar la sal y la levadura sobre la masa y distribuyela pinchando, estirando y doblando con tus manos por unos 5 minutos.</li>
+            <li>Cubrir y dejar reposar la masa en un lugar muy oscuro por unos 20 minutos y volver a doblar la masa unas 5 o 6 veces (mejor 6!).</li>
+            <li>Cubrir y dejar reposar por 60 minutos, luego volver a doblar 5 o 6 veces de nuevo.</li>
+            <li>Cubrir y dejar reposar, pero esta vez por 2 horas hasta que (notarás que creció de tamaño).</li>
+            <li>Mientras tanto calienta el horno a unos 250 grados centígrados (475 farenheit) con una olla de hierro por 30 minutos.</li>
+            <li>Pon la masa en la olla (cuidado que está caliente!) y dejar cocinar por 30 minutos.</li>
+            <li>Quitar del horno y dejar reposar en un recipiente de madera por 20 minutos.</li>
+            <li>Distrutar!</li>
+          </ol>
+        </div>
+        <div class="video">
+          <iframe
+            class="videoYoutube"
+            src="https://www.youtube.com/embed/FW3ZcuxxEhw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </article>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <!-- 
+                Links de facebook e instragram a paginas ya funcionales, whatsapp y youtube los dejo a modo de referencia, 
+                luego voy a agregar el nro real de whatsapp y cuando cree el canal de youtube ponerlo
+          
+          -->
+      <a href="https://www.facebook.com/lericur/" target="_blank"><img src="../assets/ico/icon-facebook.png" alt="Facebook icon" /></a>
+      <a href="https://www.instagram.com/lericur/" target="_blank"><img src="../assets/ico/icon-instagram.png" alt="Instragam icon" /></a>
+      <a href="https://wa.me/5491112345678" target="_blank"><img src="../assets/ico/icon-whatsapp.png" alt="Whatsapp icon" /></a>
+      <a href="https://www.youtube.com/" target="_blank"><img src="../assets/ico/icon-youtube.png" alt="Youtube icon" /></a>
+    </footer>
+    <!-- Script de Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

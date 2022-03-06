@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Setteo titulo de página -->
+    <title>Le Ricur</title>
+    <!-- Setteo la descripción y las palabras clave de la página para el SEO -->
+    <meta name="description" content="Las más ricas comidas gourmet y viandas a medida. Elaboraciones caseras y artesanales.">
+    <meta name="keywords" content="comida, comidas, viandas, gourmet">
+    <!-- Setteo ícono de página -->
+    <link rel="icon" type="image/x-icon" href="assets/ico/favicon.png" />
+    <!-- Importo fuente Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <!-- Importo CSS de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Importo mi CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Importo WOW -->
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </head>
+  <body class="animate__animated animate__fadeIn">
+    <!-- Header con Logo de Le Ricur -->
+    <header>
+      <a href="#"><img src="assets/img/LeRicurLogo.png" alt="Logo" /></a>
+    </header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">LR</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/recetas.html">Recetas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+            <button class="btn btn-outline-light" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Cuerpo de la página -->
+    <section class="promos">
+      <div class="container">
+        <div class="row"><h1 class="text-center">Conocé nuestras promos</h1></div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-4 d-flex align-items-stretch">
+            <div class="card">
+              <img src="assets/img/salsa casera.PNG" class="card-img-top" alt="salsa casera" />
+              <div class="card-body">
+                <h5 class="card-title">Salsitas caseras</h5>
+                <p class="card-text">
+                  Nada como empezar la mañana con una tostada con nuestras salsas creadas con amor. Para conocer este y más productos <a href="pages/productos.html">click aquí</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 d-flex align-items-stretch">
+            <div class="card">
+              <img src="assets/img/pan dulce.PNG" class="card-img-top" alt="pan dulce" />
+              <div class="card-body">
+                <h5 class="card-title">Pan dulce</h5>
+                <p class="card-text">
+                  Para estas fiestas te recomendamos nuestro pan dulce con la receta de la abuela. Para conocer este y más productos <a href="pages/productos.html">click aquí</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 d-flex align-items-stretch">
+            <div class="card">
+              <img src="assets/img/pizza.PNG" class="card-img-top" alt="pizza" />
+              <div class="card-body">
+                <h5 class="card-title">Pizza a la parrilla</h5>
+                <p class="card-text">Probá nuestras pizzas estilo gourmet con sabores que expandirán tu paladar. Para conocer este y más productos <a href="pages/productos.html">click aquí</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="frase">
+      <figure class="text-center">
+        <blockquote class="blockquote">
+          <p>A party without cake is just a meeting.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">Julia Child in <cite title="Source Title">some strange article</cite></figcaption>
+      </figure>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <!-- 
+                Links de facebook e instragram a paginas ya funcionales, whatsapp y youtube los dejo a modo de referencia, 
+                luego voy a agregar el nro real de whatsapp y cuando cree el canal de youtube ponerlo
+          
+          -->
+      <a href="https://www.facebook.com/lericur/" target="_blank"><img src="assets/ico/icon-facebook.png" alt="Facebook icon" /></a>
+      <a href="https://www.instagram.com/lericur/" target="_blank"><img src="assets/ico/icon-instagram.png" alt="Instragam icon" /></a>
+      <a href="https://wa.me/5491112345678" target="_blank"><img src="assets/ico/icon-whatsapp.png" alt="Whatsapp icon" /></a>
+      <a href="https://www.youtube.com/" target="_blank"><img src="assets/ico/icon-youtube.png" alt="Youtube icon" /></a>
+    </footer>
+    <!-- Script de Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

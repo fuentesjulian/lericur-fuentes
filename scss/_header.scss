@@ -1,0 +1,11 @@
+/* formato del header */
+header {
+    grid-area: header;
+    height: 160px;
+    background-color: $header_color;
+    img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+  }

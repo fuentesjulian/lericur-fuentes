@@ -1,0 +1,11 @@
+/* formato del footer */
+footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2em;
+    a {
+      margin: 0.5em;
+    }
+  }
