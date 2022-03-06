@@ -250,11 +250,11 @@ input[type="text"],
   margin: 0.5em;
   label {
     display: block;
-    margin: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
   }
   textarea {
     resize: none;
-    margin: 0.5em;
     width: 95%;
     background-color: #f8f8f8;
     border: none;

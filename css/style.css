@@ -356,12 +356,12 @@ input[type="text"],
 
 .input-textarea label {
   display: block;
-  margin: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .input-textarea textarea {
   resize: none;
-  margin: 0.5em;
   width: 95%;
   background-color: #f8f8f8;
   border: none;
