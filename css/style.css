@@ -513,6 +513,12 @@ input[type="text"],
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .historia img {
+    min-width: 200px;
   }
   .historia-texto {
     padding: 1em;
