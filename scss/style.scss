@@ -12,12 +12,26 @@
 /* defino fuente y fondo */
 body {
   font-family: $fuente;
-  background-image: url($imgfondo);
+  background-color: $colorfondo;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
+
+h1{
+  font-size: 1em;
+  font-weight: bold;
+}
+h2{
+  font-size: 2em;
+}
+h3{
+  font-size: 1.4em;
+}
+h4{
+  font-size: 1.2em;
+}
 /* Doy formato genérico a los botones para extender esta clase */
 .boton-base {
   display: inline-block;
@@ -48,31 +62,31 @@ $aceptar: (
   letra: rgba(255, 255, 255, 0.712),
   hletra: white,
   fondo: rgb(8, 102, 0),
-  hfondo: rgb(7, 80, 0)
+  hfondo: rgb(7, 80, 0),
 );
 
 $cancelar: (
   letra: rgba(255, 255, 255, 0.712),
   hletra: white,
   fondo: rgb(173, 0, 0),
-  hfondo: rgb(112, 0, 0)
+  hfondo: rgb(112, 0, 0),
 );
 
 $comprar: (
   letra: rgba(255, 255, 255, 0.712),
   hletra: white,
   fondo: rgb(112, 112, 112),
-  hfondo: rgb(58, 58, 58)
+  hfondo: rgb(58, 58, 58),
 );
 
-$botones:(
+$botones: (
   aceptar: $aceptar,
   cancelar: $cancelar,
-  comprar: $comprar
+  comprar: $comprar,
 );
 
 @each $boton, $campo in $botones {
-  .boton-#{$boton}{
+  .boton-#{$boton} {
     @include colores-boton(map-get($campo, letra), map-get($campo, hletra), map-get($campo, fondo), map-get($campo, hfondo));
   }
 }
@@ -192,7 +206,7 @@ section.contacto {
 .form-control:focus {
   color: #212529;
   background-color: #fff;
-  border-color: #ff2020;
+  border-color: $searchtextborder;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(83, 8, 8, 0.25);
 }

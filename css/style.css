@@ -10,7 +10,7 @@
 header {
   grid-area: header;
   height: 160px;
-  background-color: black;
+  background-color: #f8f8f8;
 }
 
 header img {
@@ -21,8 +21,8 @@ header img {
 
 /* formato de la navbar */
 nav {
-  background-image: -webkit-gradient(linear, left top, right top, from(#de3c4b), to(#8d232d));
-  background-image: linear-gradient(to right, #de3c4b, #8d232d);
+  background-image: -webkit-gradient(linear, left top, right top, from(#e64646), to(#8d3333));
+  background-image: linear-gradient(to right, #e64646, #8d3333);
 }
 
 .navbar {
@@ -85,10 +85,27 @@ footer a {
 /* defino fuente y fondo */
 body {
   font-family: "Roboto", sans-serif;
-  background-image: url("../assets/img/background.jpg");
+  background-color: #f8f8f8;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+h1 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+h4 {
+  font-size: 1.2em;
 }
 
 /* Doy formato genérico a los botones para extender esta clase */
@@ -291,7 +308,7 @@ section.contacto .mapa {
 .form-control:focus {
   color: #212529;
   background-color: #fff;
-  border-color: #ff2020;
+  border-color: #ca1111;
   outline: 0;
   -webkit-box-shadow: 0 0 0 0.25rem rgba(83, 8, 8, 0.25);
           box-shadow: 0 0 0 0.25rem rgba(83, 8, 8, 0.25);
