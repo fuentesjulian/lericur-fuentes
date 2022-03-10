@@ -504,6 +504,7 @@ input[type="text"],
   .historia {
     margin-left: 2em;
     margin-right: 2em;
+    padding: 0.5em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -520,6 +521,7 @@ input[type="text"],
   }
   .historia img {
     min-width: 200px;
+    border-radius: 0.25rem;
   }
   .historia-texto {
     padding: 1em;
@@ -596,6 +598,16 @@ input[type="text"],
     margin-top: 1em;
     margin-bottom: 1em;
   }
+  article.historia {
+    padding: 0;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  article.historia img {
+    min-width: 400px;
+    border-radius: 0.25rem 0 0 0.25rem;
+  }
   section.promos .card {
     margin: 0.1em;
   }
@@ -607,7 +619,8 @@ input[type="text"],
     padding-right: 2em;
     padding-bottom: 2em;
   }
-  article.receta .resumen, article.receta .ingredientes {
+  article.receta .resumen,
+  article.receta .ingredientes {
     padding-top: 2em;
   }
   article.receta .resumen {
