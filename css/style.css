@@ -454,6 +454,7 @@ input[type="text"],
   article.receta .foto img {
     width: 100%;
     margin-bottom: 0.5em;
+    border-radius: 2%;
   }
   .tarjetas {
     -webkit-box-orient: vertical;
@@ -546,11 +547,18 @@ input[type="text"],
   article.receta {
     margin-left: 2em;
     margin-right: 2em;
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-columns: 30% 35% 35%;
+        grid-template-columns: 30% 35% 35%;
     -ms-grid-rows: auto auto auto auto;
         grid-template-rows: auto auto auto auto;
         grid-template-areas: "titulo titulo titulo" "foto resumen ingredientes" "pasos pasos pasos" "video video video";
+  }
+  article.receta .foto img {
+    width: 90%;
+    margin-left: 1em;
+  }
+  article.receta .pasos {
+    padding-right: 1em;
   }
   .receta .titulo,
   .receta .foto,
@@ -590,6 +598,30 @@ input[type="text"],
   }
   section.promos .card {
     margin: 0.1em;
+  }
+  article.receta {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+  }
+  article.receta .resumen, article.receta .ingredientes {
+    padding-top: 2em;
+  }
+  article.receta .resumen {
+    padding-left: 1.5em;
+  }
+  article.receta .ingredientes {
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  article.receta .pasos {
+    padding-left: 1em;
+    padding-right: 3em;
+    -ms-grid-column-align: center;
+        justify-self: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
